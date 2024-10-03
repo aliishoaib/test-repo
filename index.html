@@ -15,17 +15,51 @@
     </nav>
     <style>
         table, th, td {
-            border: 1px solid black;
+             border: 2px solid black ;
             border-collapse: collapse;
-font-family: Arial, Helvetica, sans-serif;        }
+            padding: 20px;
+font-family: Arial, Helvetica, sans-serif;
+
+
+
+}
         table {
-            width: 100%;
-        }
+
+          
+
+            }
 
         td{
 
             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            text-align: left;
+            
+            
+
+
         }
+
+        ul {
+            list-style-position: outside; /* Keeps bullets outside */
+            display: inline-block; /* Makes the list treated as an inline element */
+            padding-left: 20px; /* Adds padding to ensure the bullets stay aligned */
+            text-align: left; /* Aligns text inside the list to the left */
+        }
+
+        .contact {
+display: flex;
+        }
+
+        .contact > div {
+
+            width: 33.33%;
+            float: left;
+            text-align: center;
+        }
+
+        tr:nth-child(even) {
+  background-color: #D6EEEE;
+}
     </style>
 </head>
 <body>
@@ -67,6 +101,36 @@ font-family: Arial, Helvetica, sans-serif;        }
         
     </table>
     <br>
+
+    <div style="background-color: aquamarine; text-align: center;">
+
+
+        <h3 style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; text-align: center;">Awards</h3>
+        <ul>
+            <li>Champions</li>
+            <li>Cup</li>
+            <li>World Cup</li>
+        </ul>
+    </div>
+
+    <div class="contact" style="background-color: aqua;">
+
+        <div style="background-color: blue;">
+        <h3 style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Contact</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum, distinctio, ea expedita, error veniam nostrum minima eius dolorum cum autem dolorem nobis odio quaerat. Eos quod autem tenetur. Reprehenderit, dolorem?</p>
+
+        </div >
+        <div style="background-color: blueviolet;">
+        <h3 style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Contact</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum, distinctio, ea expedita, error veniam nostrum minima eius dolorum cum autem dolorem nobis odio quaerat. Eos quod autem tenetur. Reprehenderit, dolorem?</p>
+
+        </div>
+        <div style="background-color: brown;">
+        <h3 style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Contact</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum, distinctio, ea expedita, error veniam nostrum minima eius dolorum cum autem dolorem nobis odio quaerat. Eos quod autem tenetur. Reprehenderit, dolorem?</p>
+
+        </div>
+    </div>
 
     
 </body>
